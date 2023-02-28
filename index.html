@@ -7,6 +7,51 @@
   </head>
 
   <body>
-    <p>Hello world, we're developers</p>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Fork Me! FCC: Test Suite Template</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <center>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+
+<form id="survey-form">
+  <fieldset>
+    <label id="name-label">
+  <p>Name</p>
+    <input type="text" id="name" value="Enter your name" placeholder="Please write your name" required>
+    </label>
+    <label id="email-label">
+    <p>Email</p>
+    <input id="email" type="email" value="Enter your email" placeholder="Please write your email" required>
+    </label>
+    <label id="number-label">
+      <p>Age</p>
+    <input type="number" id="number" value="Age" min="18" max="60" placeholder="Please write your age" required>
+    </label>
+  </fielset>
+  <fielset>
+    <label>
+      <p>Which option best describes your current role?</p>
+      <select id="dropdown" name="role">
+      <option>Select current role</option>
+      <option>Student</option>
+      <option>Full time job</option>
+      </select>
+      </label>
+      <label>
+        <p>Would you recommend freeCodeCamp to a friend?</p>
+        <input type="radio" name="user-recommend" value="definitely" class="inline" />Definitely<br>
+        <input type="radio" name="user-recommend" value="not sure" class="inline" />Not sure
+</form>
+</center>
+  </body>
+</html>
   </body>
 </html>
